@@ -1,6 +1,9 @@
+import RevealOnScroll from "../RevealOnScroll";
+
 const Home = () => {
   return (
     <section id="home" className="min-h-screen flex justify-center items-center relative">
+        <RevealOnScroll>
         <div className="text-center px-4 z-10">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 text-transparent bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text">Hellow, I'm Yash Parekh</h1>
             
@@ -9,10 +12,11 @@ const Home = () => {
             </p>
 
             <div className="flex justify-center space-x-4">
-                <a href="#project" className="text-md font-medium px-6 py-3 bg-blue-500 text-white rounded overflow-hidden hover:-translate-y-0.5 transition relative hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">View Projects</a>
+                <a href="#projects" className="text-md font-medium px-6 py-3 bg-blue-500 text-white rounded overflow-hidden hover:-translate-y-0.5 transition relative hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">View Projects</a>
                 <a href="#contact" className="text-blue-500 font-medium border border-blue-500/50 px-6 py-3 rounded overflow-hidden hover:-translate-y-0.5 transition-all duration-200 relative hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)] hover:bg-blue-500/10">Contact Me</a>
             </div>
         </div>
+        </RevealOnScroll>
     </section>
   )
 }
