@@ -1,12 +1,58 @@
-# React + Vite
+# 💼 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This site showcases who I am, the skills I possess, the projects I’ve worked on, and how you can get in touch with me.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Click here to visit my portfolio](https://yash-1485.github.io/Portfolio_Using_React/)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Sections Overview
+
+### 🏠 Home
+- **Name & Tagline**  
+  A brief introduction including my name and a short description of who I am and what I do.
+
+### 👤 About Me
+- **Short Description**  
+  A quick overview of my interests, goals, and passion for tech.
+- **Skills**  
+  A categorized list of my technical skills (Frontend, Backend, Programming Languages, etc.).
+- **Education**  
+  Details of my academic background.
+- **Certifications**  
+  Noteworthy certifications I’ve earned.
+- **Connect With Me**  
+  Social media and professional links (GitHub, LinkedIn, etc.).
+
+### 💻 Projects
+- A showcase of selected projects with:
+  - Project title
+  - Short description
+  - GitHub repository link
+
+### 📬 Contact
+- A functional contact form with the following fields:
+  - **Name**
+  - **Email**
+  - **Message**
+
+Submissions from the form will be used for reaching out and collaboration.
+
+---
+
+## 🚀 Technologies Used
+
+- **HTML5, CSS3, JavaScript**
+- **React.js**
+- **TailwindCSS **
+- **EmailJS**
+
+---
+
+## 🛠️ Setup Instructions
+Clone the repository  
+
+   ```bash
+   git clone https://github.com/your-username/your-portfolio-repo.git
