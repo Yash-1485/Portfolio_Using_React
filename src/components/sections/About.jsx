@@ -3,7 +3,7 @@ import RevealOnScroll from "../RevealOnScroll";
 const About = () => {
 
     const skills={
-        "Frontend":["ReactJs","NextJS","TypeScript"],
+        "Frontend":["ReactJs","AngularJs","TypeScript"],
         "Backend":["Node.js","Express.js","MongoDB"],
         "Computer Languages":["C","Java","Python"],
     }
