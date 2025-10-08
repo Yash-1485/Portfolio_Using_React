@@ -10,8 +10,9 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
     <nav className="fixed top-0 w-full bg-[rgba(10,10,10,0.8)] z-40 backdrop-blur-lg border-b border-white/10 shadow-lg">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <a href="#home" className="font-mono text-white text-xl font-bold">
+          <a href="#home" className="font-mono text-2xl font-bold">
             Portfolio<span className="text-blue-500">.tech</span>
+            {/* Portfolio */}
           </a>
 
           <div className="md:hidden z-40 w-7 h-5 relative cursor-pointer" onClick={()=>{setMenuOpen((prev)=>!prev);}}>
