@@ -6,6 +6,7 @@ import Home from "./components/sections/Home"
 import About from "./components/sections/About"
 import Projects from "./components/sections/Projects"
 import Contact from "./components/sections/Contact"
+import { Toaster } from "react-hot-toast";
 
 function App() {
 
@@ -15,13 +16,17 @@ function App() {
   return (
     <>
       {!isLoaded && <LoadingScreen onComplete={() => { setIsLoaded(true) }} />}
-      <div className={`min-h-screen bg-black text-gray-100 transition-opacity duration-500 ${isLoaded?"opacity-100":"opacity-0"}`}>
-        <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-        <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <div className={`min-h-screen bg-black text-gray-100 transition-opacity duration-500 ${isLoaded ? "opacity-100" : "opacity-0"}`}>
+        <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
         <About />
         <Projects />
         <Contact />
+        <Toaster
+          position="top-center"
+          reverseOrder={false}
+        />
       </div>
     </>
   )
