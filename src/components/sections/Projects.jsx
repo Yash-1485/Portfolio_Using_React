@@ -7,7 +7,7 @@ const projects = [
     desc: "A modern social media platform where users can connect, share posts, follow others, and engage through likes, comments, and real-time interactions.",
     techStack: ["NextJS", "Prisma", "PostgresDB"],
     link: "https://github.com/Yash-1485/Connectify.git",
-    live_project_link: "https://connectify-git-main-yash-a-parekhs-projects.vercel.app"
+    live_project_link: "https://connectify-gules.vercel.app/"
   },
   {
     id: 2,

@@ -46,7 +46,7 @@ export default function SkillsSection() {
                     {skills["Known Tools"].map((tool, i) => (
                         <span
                             key={i}
-                            className="rounded-full px-4 py-2 bg-yellow-500/20 text-yellow-400 text-sm font-medium hover:bg-yellow-500/30 hover:shadow-[0_2px_8px_rgba(234,179,8,0.4)] hover:-translate-y-1 transition-all cursor-pointer"
+                            className="rounded-full px-4 py-2 bg-yellow-500/20 text-yellow-400 text-sm font-medium hover:bg-yellow-500/30 hover:shadow-[0_2px_0px_rgba(234,179,8,0.4)] hover:-translate-y-1 transition-all cursor-pointer"
                         >
                             {tool}
                         </span>
